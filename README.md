@@ -22,6 +22,7 @@ Une fonction réalise-t-elle plusieurs choses ? <br/>
   POUR générer une page qui comprend un montage et un démontage (TO nom_de_la_fonction), nous vérifions que la page est une page de test et si c'est le cas, nous incluons les pages de montage et de démontage.<br/>
   Dans tous les cas, nous présentons la page en HTML<br/>
   => ici, une seule responsabilité, car pas besoin d'autre "POUR" pour expliquer un autre détail, un autre "niveau" de détail.<br/>
+
 _Note et question de moi-même : j'arrive à comprendre, concernant le listing 3.7 p56, que la fonction "render" a plusieurs niveaux d'abstraction grâce à l'abstraction des 4 méthodes dans la fonction includeTrucAndTruc appelée, mais cependant pas en déterminant le niveau d'abstraction ou le nombre d'abstractions, plutôt en pensant à l'OCP.<br/>
 Autre Note : difficile de compter le nombre de niveaux d'abstractions. A  réfléchir et travailler_
 
