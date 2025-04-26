@@ -12,5 +12,15 @@ La longueur  d'un nom doit correspondre à la taille de sa portée dans le code 
 Classe = nom ou groupe nominal
 Méthode/fonction = verbe ou groupe verbal
 
-La plupart des noms ne sont pas significatifs en eux-mêmes : i lconvient alors de les englober dans une classe ou une fonction ou un namespace, qui leur donne suffisamment de contexte pour en appréhender le sens.
+La plupart des noms ne sont pas significatifs en eux-mêmes : il convient alors de les englober dans une classe ou une fonction ou un namespace, qui leur donne suffisamment de contexte pour en appréhender le sens.
 ***
+### Chapitre 3 - Fonctions
+Une fonction réalise-t-elle plusieurs choses ? <br/>
+  - Si toutes les étapes de son process se situent à un niveau d'abstraction en-dessous de celui du nom de la fonction, alors OUI.<br/>
+  En effet, elle fera alors une seule chose : ce que son nom indique (sans v"AND", trichez pas ! ).<br/>
+  - Exemple de tentative de détection de plusieurs reponsabilités : <br/>
+  POUR générer une page qui comprend un montage et un démontage (TO nom_de_la_fonction), nous vérifions que la page est une page de test et si c'est le cas, nous incluons les pages de montage et de démontage.<br/>
+  Dans tous les cas, nous présentons la page en HTML<br/>
+  => ici, une seule responsabilité, car pas besoin d'autre "POUR" pour expliquer un autre détail, un autre "niveau" de détail.
+_Note et question de moi-même : j'arrive à comprendre, concernant le listing 3.7 p56, que la fonction "render" a plusieurs niveaux d'abstraction grâce à l'abstraction des 4 méthodes dans la fonction includeTrucAndTruc appelée, mais cependant pas en déterminant le niveau d'abstraction ou le nombre d'abstractions, plutôt en pensant à l'OCP.<br/>
+Autre Note : difficile de compter le nombre de niveaux d'abstractions. A  réfléchir et travailler_
