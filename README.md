@@ -40,7 +40,7 @@ Le véritable objectif de bien nommer et structurer ses fonctions est de **racon
 
 ***
 ## Chapitre 6 - Objets et structures de données
- Structure de données : des objets ne faisant qu'exposer leurs données
+ Structure de données : des objets ne faisant qu'exposer leurs données<br/>
 **A retenir, c'est FORT :**
 >Un code procédural (un code qui utilise des structures de données), facilite l'ajout de nouvelles fonction sans modifier les structures de données existantes. <br/>
 Un code orienté objet facilite l'ajout de nouvelles classes sans modifier les fonctions existantes.<br/><br/>Un code procédural complexifie l'ajout de nouvelles structures de données car toutes les fonctions doivent être modifiées. Tandis qu'un  code OO complexifie l'ajout de nouvelles fonctions car toutes les classes doivent être modifiées
