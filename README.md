@@ -35,5 +35,7 @@ Séparer commandes et demandes<br/>
   if (attributeExists("nomUtilisateur")) {
     setAtribute(.....
   }
-  `
+
+Le véritable objectif de bien nommer et structurer ses fonctions est de **raconter l'histoire** du système.
+
 ***
