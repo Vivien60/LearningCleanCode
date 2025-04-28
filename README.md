@@ -26,4 +26,14 @@ Une fonction réalise-t-elle plusieurs choses ? <br/>
 _Note et question de moi-même : j'arrive à comprendre, concernant le listing 3.7 p56, que la fonction "render" a plusieurs niveaux d'abstraction grâce à l'abstraction des 4 méthodes dans la fonction includeTrucAndTruc appelée, mais cependant pas en déterminant le niveau d'abstraction ou le nombre d'abstractions, plutôt en pensant à l'OCP.<br/>
 Autre Note : difficile de compter le nombre de niveaux d'abstractions. A  réfléchir et travailler_
 
+Séparer commandes et demandes<br/>
+  - une fonction devrait soit faire une chose, soit répondre à une question.<br/>
+  Par ex `public boolean set(String attribute, String value);` fait une chose : elle assigne une valeur à un attribut, et elle retoure aussi un booléen indiquant la réussite de l'opération<br/>
+  Cela peut conduire à `if (set("nomUtilisateur", "OncleBob"))`. Or "set" est soit adjectif soit verbe... Lequel des 2 est-ce ici ?
+  Mieux vaudrait écrire :
+  `
+  if (attributeExists("nomUtilisateur")) {
+    setAtribute(.....
+  }
+  `
 ***
