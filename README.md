@@ -48,6 +48,7 @@ Un code orienté objet facilite l'ajout de nouvelles classes sans modifier les f
   <br/>Pourquoi ? Cela ajoute des connaissances, du couplage. Diminuer ce couplage augmentee la maintenabilité.
 - Page 110 : relire le pb et sa résolution de temps en temps
 
+***
 ## Chapitre 7 : Gestion des erreurs
 - Ma pensée<br/>
   _Faut-il vraiment faire une règle de séparer ibjet et structure de données ? A quel moment une "fausse structure de données (un objet avec des mtutateurs et des variables privés) deviuent-ils un véritable objet? Posé autrement: Quelle est la     caractéristique minimale qui fait basculer une entité de l'un à l'autre ?_
