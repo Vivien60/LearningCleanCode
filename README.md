@@ -46,4 +46,10 @@ Le véritable objectif de bien nommer et structurer ses fonctions est de **racon
 Un code orienté objet facilite l'ajout de nouvelles classes sans modifier les fonctions existantes.<br/><br/>Un code procédural complexifie l'ajout de nouvelles structures de données car toutes les fonctions doivent être modifiées. Tandis qu'un  code OO complexifie l'ajout de nouvelles fonctions car toutes les classes doivent être modifiées
 - Loi de Déméter : Dans une méthode, il ne faut pas invoquer les méthodes des objets retournés, seulement celles de ceux passées en paramètre ou de ceux qui sont membres de l'objet.
   <br/>Pourquoi ? Cela ajoute des connaissances, du couplage. Diminuer ce couplage augmentee la maintenabilité.
-- Page 
+- Page 110 : relire le pb et sa résolution de temps en temps
+
+## Chapitre 7 : Gestion des erreur
+- Ma pensée<br/>
+  _Faut-il vraiment faire une règle de séparer ibjet et structure de données ? A quel moment une "fausse structure de données (un objet avec des mtutateurs et des variables privés) deviuent-ils un véritable objet? Posé autrement: Quelle est la     caractéristique minimale qui fait basculer une entité de l'un à l'autre ?_
+- Exceptions : n'utiliser des classes différentes que si l'on souhaite n'en intercepter qu'une et ignorer les autres.
+
