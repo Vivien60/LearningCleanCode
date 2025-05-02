@@ -16,7 +16,7 @@ La plupart des noms ne sont pas significatifs en eux-mêmes : il convient alors 
 ***
 ## Chapitre 3 - Fonctions
 Une fonction réalise-t-elle plusieurs choses ? <br/>
-  - Si toutes les étapes de son process se situent à un niveau d'abstraction en-dessous de celui du nom de la fonction, alors OUI.<br/>
+  - Si toutes les étapes de son process se situent à un niveau d'abstraction en-dessous de celui du nom de la fonction, alors NON.<br/>
   En effet, elle fera alors une seule chose : ce que son nom indique (sans v"AND", trichez pas ! ).<br/>
   - Exemple de tentative de détection de plusieurs reponsabilités : <br/>
   POUR générer une page qui comprend un montage et un démontage (TO nom_de_la_fonction), nous vérifions que la page est une page de test et si c'est le cas, nous incluons les pages de montage et de démontage.<br/>
