@@ -54,3 +54,10 @@ Un code orienté objet facilite l'ajout de nouvelles classes sans modifier les f
   _Faut-il vraiment faire une règle de séparer ibjet et structure de données ? A quel moment une "fausse structure de données (un objet avec des mtutateurs et des variables privés) deviuent-ils un véritable objet? Posé autrement: Quelle est la     caractéristique minimale qui fait basculer une entité de l'un à l'autre ?_
 - Exceptions : n'utiliser des classes différentes que si l'on souhaite n'en intercepter qu'une et ignorer les autres.
 
+***
+## Chapitre 10 - Classes
+Lorsque des méhodes privées s'appliquent seulement à un sous-ensemble d'une classe, c'est le signe qu'on peut améliorer cette classe, en extrayant ces méthodes dans une autre. <br/>
+Toutefois, la 1ère incitation à agir doitr venir du sytème lui-même. Si la prise en charge d'une nouvelle fonctionnalité, impactée par l'organisation de la classe, dans un furtur proche n'est pas nécessaire, nous pouvons la laisser inchangée.
+
+
+
